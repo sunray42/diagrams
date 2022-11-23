@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T10:02:03.902Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="MNf07EhO-4ZCh5ENVQDL" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-23T10:20:12.554Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Ao2PKJOzTgvAcc8j6Q_2" version="20.6.0" type="github">
   <diagram id="PrPMWTKknmVzqEdROyOC" name="第 1 页">
-    <mxGraphModel dx="2036" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="2036" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -181,8 +181,20 @@
         <mxCell id="gVNOACa7D2izH39yQ2hB-117" value="$$L_{C}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="700" y="699.9999999999999" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a80bJpDfoxFGp4D8oM5q-1" value="$$H(\hat{y}_t)$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="a80bJpDfoxFGp4D8oM5q-1" value="$$H(\hat{y}_t)$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="700" y="730.3799999999999" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_3P5KTRPBqjQuL4RReXr-2" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;fontSize=16;rotation=30;" vertex="1" parent="1">
+          <mxGeometry x="702.48" y="615" width="308" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="_3P5KTRPBqjQuL4RReXr-3" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="767" y="713.75" width="223" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="_3P5KTRPBqjQuL4RReXr-4" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=20;notch=0;fontSize=16;rotation=-240;" vertex="1" parent="1">
+          <mxGeometry x="970.24" y="585" width="239.52" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="_3P5KTRPBqjQuL4RReXr-5" value="$$L = L_C + 1.5\lambda L_D + \lambda L_{D_0} + \gamma H(\hat{y}_t)$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="713.7499999999999" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
