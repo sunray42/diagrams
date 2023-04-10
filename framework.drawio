@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T10:02:47.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="C9smVJLO-d--nmy7tRs7" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-10T10:09:53.820Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="So_H6ByjvTkn3MXBV8za" version="21.1.4" type="github">
   <diagram id="OHugUGV6JcLkJLT_VvOv" name="第 1 页">
-    <mxGraphModel dx="2035" dy="1218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="977" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -254,6 +254,18 @@
         </mxCell>
         <mxCell id="EiaWENK0sWJ-y4MaInz0-37" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;fillColor=#FF6666;" vertex="1" parent="EiaWENK0sWJ-y4MaInz0-39">
           <mxGeometry y="60" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EiaWENK0sWJ-y4MaInz0-141" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="960" as="sourcePoint" />
+            <mxPoint x="450" y="563.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EiaWENK0sWJ-y4MaInz0-142" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;(a) Graph Representation Learning Module&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="76" y="960" width="342" height="22.19" as="geometry" />
+        </mxCell>
+        <mxCell id="EiaWENK0sWJ-y4MaInz0-143" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;(b) Domain Adaversarial Learning Module&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="960" width="340" height="22.19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
