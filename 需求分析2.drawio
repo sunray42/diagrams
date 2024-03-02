@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-02T09:24:42.279Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="QxB-oz7GKqseBqdw0j5C" version="23.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-02T14:41:50.791Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="Qq0zUstuNEHMlHAwIK4z" version="23.1.8" type="github">
   <diagram name="第 1 页" id="yEZOCpddBqTjKLaMzBPA">
     <mxGraphModel dx="1050" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,14 +16,17 @@
         <mxCell id="uQjOitA8qZ1kEQDeVXDY-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="uQjOitA8qZ1kEQDeVXDY-4" target="uQjOitA8qZ1kEQDeVXDY-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="P5pUbYpjrYtXW98-HuD3-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uQjOitA8qZ1kEQDeVXDY-4" target="P5pUbYpjrYtXW98-HuD3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uQjOitA8qZ1kEQDeVXDY-4" value="客户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="250" y="240" width="30" height="60" as="geometry" />
+          <mxGeometry x="220" y="330" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uQjOitA8qZ1kEQDeVXDY-9" value="1.1 APK文件上传" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="354" y="90" width="120" height="80" as="geometry" />
+          <mxGeometry x="350" y="130" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uQjOitA8qZ1kEQDeVXDY-10" value="1.2 APK文件搜索" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="354" y="200" width="120" height="80" as="geometry" />
+          <mxGeometry x="350" y="220" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uQjOitA8qZ1kEQDeVXDY-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="uQjOitA8qZ1kEQDeVXDY-14" target="uQjOitA8qZ1kEQDeVXDY-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -31,32 +34,41 @@
         <mxCell id="uQjOitA8qZ1kEQDeVXDY-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="uQjOitA8qZ1kEQDeVXDY-14" target="uQjOitA8qZ1kEQDeVXDY-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="P5pUbYpjrYtXW98-HuD3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="uQjOitA8qZ1kEQDeVXDY-14" target="uQjOitA8qZ1kEQDeVXDY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P5pUbYpjrYtXW98-HuD3-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="uQjOitA8qZ1kEQDeVXDY-14" target="P5pUbYpjrYtXW98-HuD3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P5pUbYpjrYtXW98-HuD3-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="uQjOitA8qZ1kEQDeVXDY-14" target="uQjOitA8qZ1kEQDeVXDY-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="uQjOitA8qZ1kEQDeVXDY-14" value="4. 身份认证" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="550" y="210" width="120" height="80" as="geometry" />
+          <mxGeometry x="558" y="310" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="uQjOitA8qZ1kEQDeVXDY-16" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=60;" parent="1" vertex="1">
-          <mxGeometry x="480" y="170" width="70" height="25" as="geometry" />
+        <mxCell id="uQjOitA8qZ1kEQDeVXDY-16" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=70;" parent="1" vertex="1">
+          <mxGeometry x="488" y="240" width="70" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="uQjOitA8qZ1kEQDeVXDY-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="uQjOitA8qZ1kEQDeVXDY-17" target="uQjOitA8qZ1kEQDeVXDY-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="uQjOitA8qZ1kEQDeVXDY-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="uQjOitA8qZ1kEQDeVXDY-17" target="uQjOitA8qZ1kEQDeVXDY-23" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="uQjOitA8qZ1kEQDeVXDY-17" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=10;" parent="1" vertex="1">
-          <mxGeometry x="480" y="240" width="70" height="25" as="geometry" />
+        <mxCell id="uQjOitA8qZ1kEQDeVXDY-17" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=55;" parent="1" vertex="1">
+          <mxGeometry x="479" y="278" width="70" height="25" as="geometry" />
         </mxCell>
         <mxCell id="uQjOitA8qZ1kEQDeVXDY-19" value="1.3 APK文件静态分析" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="310" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="uQjOitA8qZ1kEQDeVXDY-22" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-60;" parent="1" vertex="1">
-          <mxGeometry x="474" y="280" width="70" height="25" as="geometry" />
+        <mxCell id="uQjOitA8qZ1kEQDeVXDY-22" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="479" y="330" width="70" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="uQjOitA8qZ1kEQDeVXDY-23" value="1.4 APK恶意性分析" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="354" y="410" width="120" height="80" as="geometry" />
+        <mxCell id="uQjOitA8qZ1kEQDeVXDY-23" value="1.5 APK恶意性分析" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="490" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uQjOitA8qZ1kEQDeVXDY-26" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-65;" parent="1" vertex="1">
-          <mxGeometry x="482.5" y="347.4" width="76" height="25" as="geometry" />
+          <mxGeometry x="488" y="427.5" width="76" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="P5pUbYpjrYtXW98-HuD3-4" value="1.4 APK相似性分析" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P5pUbYpjrYtXW98-HuD3-7" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="470" y="380" width="76" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
