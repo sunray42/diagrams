@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-03T12:48:17.186Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="NjIGQ6lvqVu7WYX5SGeg" version="23.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-03T12:48:32.550Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="oJjnDIRiX0ooQ6yWk4dE" version="23.1.8" type="github">
   <diagram name="第 1 页" id="P7xmFHNfyyYK0Ppg5-Yj">
     <mxGraphModel dx="724" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
             <mxPoint x="95.5" y="418" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ddgmO0aUJOo5gJLLZodD-25" value="6. 注册成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ddgmO0aUJOo5gJLLZodD-25" value="6. 登录成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="180" y="395" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
