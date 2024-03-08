@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-07T17:36:55.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ae6TqlEOPw59NqDe1nfz" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T01:42:30.667Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="nZNL7F0NB-cDXSr5-H9B" version="24.0.2" type="github">
   <diagram name="第 1 页" id="got8Y6Uiw6UoeCw92j-6">
     <mxGraphModel dx="842" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -364,7 +364,7 @@
             <mxPoint x="420" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yd2iljssM0_-3lc8b-zZ-131" value="GNN Model" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
+        <mxCell id="yd2iljssM0_-3lc8b-zZ-131" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;GNN Model&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" vertex="1" parent="1">
           <mxGeometry x="426.5" y="174" width="182" height="26" as="geometry" />
         </mxCell>
         <mxCell id="yd2iljssM0_-3lc8b-zZ-136" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.141;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yd2iljssM0_-3lc8b-zZ-118" target="yd2iljssM0_-3lc8b-zZ-131">
@@ -409,7 +409,7 @@
         <mxCell id="yd2iljssM0_-3lc8b-zZ-151" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="1">
           <mxGeometry x="439" y="275" width="161" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="yd2iljssM0_-3lc8b-zZ-152" value="EERM Loss" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="yd2iljssM0_-3lc8b-zZ-152" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Loss:&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440.75" y="278" width="49.5" height="29" as="geometry" />
         </mxCell>
         <mxCell id="yd2iljssM0_-3lc8b-zZ-153" value="$$Var(X) + E(X)$$" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
