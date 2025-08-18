@@ -37,7 +37,7 @@
         <mxCell id="j572f-ipH53P4wUmF90J-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="j572f-ipH53P4wUmF90J-5" target="j572f-ipH53P4wUmF90J-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="j572f-ipH53P4wUmF90J-5" value="temporary message" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="j572f-ipH53P4wUmF90J-5" value="temporary messages" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="142.5" y="80" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-MF3KMe3UPWmYdnRpOaB-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-MF3KMe3UPWmYdnRpOaB-1" target="-MF3KMe3UPWmYdnRpOaB-3">
@@ -46,7 +46,7 @@
         <mxCell id="-MF3KMe3UPWmYdnRpOaB-1" value="维护agent_state：&lt;div&gt;动态更新topic字段&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="107.5" y="470" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-MF3KMe3UPWmYdnRpOaB-3" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="-MF3KMe3UPWmYdnRpOaB-3" value="inner_step()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="112.5" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-MF3KMe3UPWmYdnRpOaB-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-MF3KMe3UPWmYdnRpOaB-7" target="-MF3KMe3UPWmYdnRpOaB-1">
@@ -63,6 +63,53 @@
         </mxCell>
         <mxCell id="-MF3KMe3UPWmYdnRpOaB-12" value="build_system_prompt_with_memories()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="850" y="28" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-MF3KMe3UPWmYdnRpOaB-13" value="raw_system&lt;div&gt;topics&lt;/div&gt;&lt;div&gt;retrieved_memories&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="70" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-MF3KMe3UPWmYdnRpOaB-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-MF3KMe3UPWmYdnRpOaB-14" target="-MF3KMe3UPWmYdnRpOaB-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MF3KMe3UPWmYdnRpOaB-14" value="遍历记忆组件，检索topic拿记忆:&lt;div&gt;- core memory: 所有内容persona和human&lt;/div&gt;&lt;div&gt;- knowledge memory: caption字段检索&lt;/div&gt;&lt;div&gt;- episodic memory:&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;最近和最相关，details字段检索&lt;/span&gt;&lt;/div&gt;&lt;div&gt;- resource memory: summary字段检索&lt;/div&gt;&lt;div&gt;- procedural memory: summary字段检索&lt;/div&gt;&lt;div&gt;- semantic memory: details字段检索&lt;/div&gt;&lt;div&gt;如果当前agent是reflexion agent，那么生成的prompt中需要给出每一段记忆的ID&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="833.75" y="120" width="276.25" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-MF3KMe3UPWmYdnRpOaB-15" value="记忆组件中检索流程？&#39;bm25&#39;和embedding&lt;div&gt;各个记忆组件检索的字段summary、details如何生成？&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="23" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-MF3KMe3UPWmYdnRpOaB-16" value="填充system prompt模板" style="whiteSpace=wrap;html=1;align=left;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="905.44" y="300" width="132.31" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-MF3KMe3UPWmYdnRpOaB-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-MF3KMe3UPWmYdnRpOaB-18" target="-MF3KMe3UPWmYdnRpOaB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MF3KMe3UPWmYdnRpOaB-18" value="构建带记忆的&lt;div&gt;system prompt&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MF3KMe3UPWmYdnRpOaB-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-MF3KMe3UPWmYdnRpOaB-20" target="-MF3KMe3UPWmYdnRpOaB-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MF3KMe3UPWmYdnRpOaB-20" value="拼接对话消息；&lt;div&gt;获取allowed_funcs&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MF3KMe3UPWmYdnRpOaB-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-MF3KMe3UPWmYdnRpOaB-24" target="-MF3KMe3UPWmYdnRpOaB-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MF3KMe3UPWmYdnRpOaB-28" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-MF3KMe3UPWmYdnRpOaB-27">
+          <mxGeometry x="0.22" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-MF3KMe3UPWmYdnRpOaB-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-MF3KMe3UPWmYdnRpOaB-24" target="-MF3KMe3UPWmYdnRpOaB-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-MF3KMe3UPWmYdnRpOaB-24" value="去除上次&lt;div&gt;调用失败的functions，allowed_funcs非空&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432.5" y="270" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-MF3KMe3UPWmYdnRpOaB-26" value="失败" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-MF3KMe3UPWmYdnRpOaB-29" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="380" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
