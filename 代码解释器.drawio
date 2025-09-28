@@ -32,7 +32,7 @@
         <mxCell id="4Rj2pSZw6Q_C70Ud2-cQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4Rj2pSZw6Q_C70Ud2-cQ-6" target="4Rj2pSZw6Q_C70Ud2-cQ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4Rj2pSZw6Q_C70Ud2-cQ-6" value="输入代码解释器的function call" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4Rj2pSZw6Q_C70Ud2-cQ-6" value="输入：&lt;div&gt;代码解释器的function call&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="130" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4Rj2pSZw6Q_C70Ud2-cQ-10" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
